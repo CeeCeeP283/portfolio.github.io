@@ -86,7 +86,6 @@ PROC FREQ DATA=oncology_cleaned;
 	TABLES Cancer_Type * Study_Type /Missing CHISQ NOROW NOCOL NOPERCENT;
 RUN;
 
-*add more*;
 *Exploratory Data Analysis*;
 
 /* Bar chart for Cancer Type distribution */
